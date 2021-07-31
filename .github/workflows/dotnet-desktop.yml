@@ -98,8 +98,8 @@ jobs:
         Appx_Bundle: Always
         Appx_Bundle_Platforms: x64
         Platform: x64
-        Appx_Package_Build_Mode: CL
-        Configuration: ${{ matrix.configuration }}
+        Appx_Package_Build_Mode: CI
+        Configuration: Release
 
     # Remove the pfx
     # - name: Remove the pfx
