@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '15.0'">
-    <VisualStudioVersion>15.0</VisualStudioVersion>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '16.0'">
+    <VisualStudioVersion>16.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x86">
@@ -44,7 +44,7 @@
   <PropertyGroup>
     <ProjectGuid>3b15596c-3db9-4b58-b4c8-442d06a8c130</ProjectGuid>
     <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
     <DefaultLanguage>de-DE</DefaultLanguage>
     <GenerateAppInstallerFile>True</GenerateAppInstallerFile>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
@@ -56,7 +56,7 @@
     <GenerateTestArtifacts>False</GenerateTestArtifacts>
     <AppxBundleAutoResourcePackageQualifiers>Scale|DXFeatureLevel</AppxBundleAutoResourcePackageQualifiers>
     <AppxDefaultResourceQualifiers>Language=en-US;ar;de-DE;el;es-ES;es-419;fr-FR;he-IL;hi-IN;hu-HU;id-ID;it-IT;ja-JP;ko-KR;lv-LV;nl-NL;or-IN;pl-PL;pt-BR;pt-PT;ru-RU;sv-SE;cs-CZ;ta;tr-TR;uk-UA;zh-Hans;zh-Hant;da;da-DK</AppxDefaultResourceQualifiers>
-    <UapAppxPackageBuildMode>StoreUpload</UapAppxPackageBuildMode>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
     <EntryPointProjectUniqueName>..\Files\Files.csproj</EntryPointProjectUniqueName>
   </PropertyGroup>
