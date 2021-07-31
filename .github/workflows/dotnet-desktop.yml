@@ -40,9 +40,9 @@ name: .NET Core Desktop
 
 on:
   push:
-    branches: [ v1.5.44 ]
+    branches: [ tags_v2 ]
   pull_request:
-    branches: [ v1.5.44 ]
+    branches: [ tags_v2 ]
 
 jobs:
 
