@@ -46,7 +46,7 @@
     <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
     <DefaultLanguage>de-DE</DefaultLanguage>
-    <GenerateAppInstallerFile>True</GenerateAppInstallerFile>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
     <AppInstallerUpdateFrequency>0</AppInstallerUpdateFrequency>
     <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
@@ -56,7 +56,7 @@
     <GenerateTestArtifacts>False</GenerateTestArtifacts>
     <AppxBundleAutoResourcePackageQualifiers>Scale|DXFeatureLevel</AppxBundleAutoResourcePackageQualifiers>
     <AppxDefaultResourceQualifiers>Language=en-US;ar;de-DE;el;es-ES;es-419;fr-FR;he-IL;hi-IN;hu-HU;id-ID;it-IT;ja-JP;ko-KR;lv-LV;nl-NL;or-IN;pl-PL;pt-BR;pt-PT;ru-RU;sv-SE;cs-CZ;ta;tr-TR;uk-UA;zh-Hans;zh-Hant;da;da-DK</AppxDefaultResourceQualifiers>
-    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <UapAppxPackageBuildMode>CI</UapAppxPackageBuildMode>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
     <EntryPointProjectUniqueName>..\Files\Files.csproj</EntryPointProjectUniqueName>
   </PropertyGroup>
